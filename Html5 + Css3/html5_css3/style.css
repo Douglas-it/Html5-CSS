@@ -1,0 +1,18 @@
+body {
+    background-color: #ff0000;
+    background-image: url(img/fundo_web.jpg);
+}
+
+a:link {
+    color: #0000ff;
+    
+}
+
+a:visited {
+    color: #152f15;
+}
+
+p { 
+    text-align: right;
+    
+}
