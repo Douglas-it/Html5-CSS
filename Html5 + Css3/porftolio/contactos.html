@@ -1,105 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="styles.css">
-<title>Contactos - myFOLIO - Web Design &amp; Development</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <title>Contactos - myFOLIO - Web Design & Development</title>
 </head>
 <body>
-    <div id="main-header">
-        <div class="center-content">
-            <h1 id="logo"><a href="index.html"><img src="img/logo-myfolio.png" alt="myFolio"></a></h1>
-        </div>
-        
-        <div class="center-content">    
-            <ul class="inline-list">
-                <li class="active"><a href="index.html">Início</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li id="servicos"><a href="servicos.html">Serviços</a></li>
-                <li id="portfolio"><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="contactos.html">Contactos</a></li>
-            </ul>
-        </div>
-        
-        <div class="center-content">
-            <div id="main-title">
-                <h1>Contactos</h1>
-                <h3>Fale comigo e saiba como posso ajudá-lo!</h3>
-            </div>
-        </div>
+  <header id="main-header">
+    <div class="center-content">
+      <h1 id="logo">
+        <a href="index.html">
+          <img src="img/logo-myfolio.png" alt="myFolio">
+        </a>
+      </h1>
     </div>
     
-    <div id="content">
-        <div class="center-content">
-            <div class="article">
-                <h4>Onde estou...</h4>
-                <iframe width="980" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.pt/maps?f=q&amp;source=s_q&amp;hl=pt-PT&amp;geocode=&amp;q=formabase,+lisboa&amp;sll=38.73549,-9.148393&amp;sspn=0.004511,0.01133&amp;ie=UTF8&amp;hq=formabase,&amp;hnear=Lisboa&amp;cid=15974234937223648872&amp;ll=38.735406,-9.148393&amp;spn=0.008369,0.01369&amp;z=15&amp;iwloc=near&amp;output=embed"></iframe><br />
-                <a target="_blank" href="http://maps.google.pt/maps?f=q&amp;source=embed&amp;hl=pt-PT&amp;geocode=&amp;q=formabase,+lisboa&amp;sll=38.73549,-9.148393&amp;sspn=0.004511,0.01133&amp;ie=UTF8&amp;hq=formabase,&amp;hnear=Lisboa&amp;cid=15974234937223648872&amp;ll=38.735406,-9.148393&amp;spn=0.008369,0.01369&amp;z=15&amp;iwloc=A">Ver mapa maior</a>
-                
-                <address>
-                    <br>
-                    Rua Arnaldo Ferreira 37<br>
-                    1547-560 Pedreira de Baixo<br>
-                    <b>+351 653 115 785</b><br>
-                    <b><a href="mailto:eu@mailiu.tom">eu@mailiu.tom</a></b><br>
-                </address>
-            </div>
-        </div>
-        <div class="center-content">    
-            <form method="post" action="contacto-sucesso.html" name="contacto">
-                <fieldset>
-                    <legend>Contacte-me!</legend>
-                    <dl>
-                        <dt><label for="nome-completo">Nome Completo</label></dt>
-                        <dd><input type="text" name="nome-completo" id="nome-completo" class="input-big" required autofocus></dd>
-                        
-                        <dt><label for="email">E-mail</label></dt>
-                        <dd><input type="email" name="email" id="email" class="input-big" required placeholder="you@example.com"></dd>
-                        
-                        <dt><label for="telefone">Telefone</label></dt>
-                        <dd><input type="tel" name="telefone" id="telefone" class="input-medium" placeholder="000-0000000000"></dd>
-                        
-                        <dt><label for="hora-contato">Hora preferencial de contacto</label></dt>
-                        <dd>
-                            <select name="hora-contato" id="hora-contato" class="input-medium">
-                                <option value="">- Selecione uma hora -</option>
-                                <option value="manha">Manhã</option>
-                                <option value="tarde">Tarde</option>
-                                <option value="noite">Noite</option>
-                            </select>
-                        </dd>
-                        
-                        <dt><label for="comentarios">Questões / Comentários</label></dt>
-                        <dd><textarea name="comentarios" id="comentarios" class="input-big" required></textarea></dd>
-                        
-                        <dt><label for="ficheiro">Enviar Ficheiro(s)</label></dt>
-                        <dd><input type="file" name="ficheiro" id="ficheiro"></dd>
-                        
-                        <dd>
-                            <input type="submit" name="botao-enviar" class="button-main" value="Enviar">
-                            <input type="reset" name="botao-limpar" value="Limpar">
-                        </dd>
-                    </dl>
-                </fieldset>
-            </form>
-        </div>
+    <nav class="center-content">
+      <ul class="inline-list">
+        <li class="active"><a href="index.html">Início</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li id="servicos"><a href="servicos.html">Serviços</a></li>
+        <li id="portfolio"><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
+    </nav>
+    
+    <div class="center-content">
+      <div id="main-title">
+        <h1>Contactos</h1>
+        <h3>Fale comigo e saiba como posso ajudá-lo!</h3>
+      </div>
     </div>
-    <div id="main-footer">
-        <div class="center-content">
-            <ul class="inline-list">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="contactos.html">Contactos</a></li>
-            </ul>
-            <ul class="inline-list">
-                <li><a href="#"><img src="img/social-facebook.png" alt="Facebook"></a></li>
-                <li><a href="#"><img src="img/social-twitter.png" alt="Twitter"></a></li>
-                <li><a href="#"><img src="img/social-linkedin.png" alt="LinkedIn"></a></li>
-                <li><a href="#"><img src="img/social-gplus.png" alt="Google Plus"></a></li>
-            </ul>
-        </div>
+  </header>
+  
+  <main id="content">
+    <section>
+      <h2>Onde estou...</h2>
+      <iframe 
+        width="980" 
+        height="300" 
+        frameborder="0" 
+        scrolling="no" 
+        marginheight="0" 
+        marginwidth="0" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.1542175054944!2d-9.148393!3d38.735406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1abf7d08a8c6d%3A0x42d2a58ecaa8d0!2sRua%20Arnaldo%20Ferreira%2037%2C%201547-560%20Pedreira%20de%20Baixo!5e0!3m2!1spt-PT!2spt!4v1628007740431!5m2!1spt-PT!2spt" 
+        allowfullscreen
+        aria-hidden="false"
+        tabindex="0">
+      </iframe>
+      <p>
+        <a href="https://www.google.com/maps?q=Rua+Arnaldo+Ferreira+37,+1547-560+Pedreira+de+Baixo&hl=pt-PT" target="_blank" rel="noopener noreferrer">Ver mapa maior</a>
+      </p>
+      
+      <address>
+        Rua Arnaldo Ferreira 37<br>
+        1547-560 Pedreira de Baixo<br>
+        <strong>+351 653 115 785</strong><br>
+        <a href="mailto:eu@mailiu.tom"><strong>eu@mailiu.tom</strong></a>
+      </address>
+    </section>
+    
+    <section>
+      <h2>Contacte-me!</h2>
+      <form method="post" action="contacto-sucesso.html" name="contacto">
+        <fieldset>
+          <legend>Formulário de Contato</legend>
+          <dl>
+            <dt><label for="nome-completo">Nome Completo</label></dt>
+            <dd><input type="text" name="nome-completo" id="nome-completo" class="input-big" required autofocus></dd>
+            
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="email" name="email" id="email" class="input-big" required placeholder="you@example.com"></dd>
+            
+            <dt><label for="telefone">Telefone</label></dt>
+            <dd><input type="tel" name="telefone" id="telefone" class="input-medium" placeholder="000-0000000000"></dd>
+            
+            <dt><label for="hora-contato">Hora preferencial de contacto</label></dt>
+            <dd>
+              <select name="hora-contato" id="hora-contato" class="input-medium">
+                <option value="">- Selecione uma hora -</option>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+              </select>
+            </dd>
+            
+            <dt><label for="comentarios">Questões / Comentários</label></dt>
+            <dd><textarea name="comentarios" id="comentarios" class="input-big" required></textarea></dd>
+            
+            <dt><label for="ficheiro">Enviar Ficheiro(s)</label></dt>
+            <dd><input type="file" name="ficheiro" id="ficheiro"></dd>
+            
+            <dd>
+              <input type="submit" name="botao-enviar" class="button-main" value="Enviar">
+              <input type="reset" name="botao-limpar" value="Limpar">
+            </dd>
+          </dl>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  
+  <footer id="main-footer">
+    <div class="center-content">
+      <nav>
+        <ul class="inline-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
+      <ul class="inline-list">
+        <li><a href="#"><img src="img/social-facebook.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="img/social-twitter.png" alt="Twitter"></a></li>
+        <li><a href="#"><img src="img/social-linkedin.png" alt="LinkedIn"></a></li>
+        <li><a href="#"><img src="img/social-gplus.png" alt="Google Plus"></a></li>
+      </ul>
     </div>
+  </footer>
 </body>
 </html>

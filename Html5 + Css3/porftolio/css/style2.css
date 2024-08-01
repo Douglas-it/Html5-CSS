@@ -280,3 +280,76 @@ input.button-main, button.button-main {
 .input-tiny {
     width: 50px;
 }
+
+/* Estilos para informações complementares */
+article aside {
+    background-color: #DDDDDD; /* Cor de fundo */
+    padding: 10px;             /* Espaçamento interno */
+    width: 220px;              /* Largura fixa */
+    margin: 10px 0;            /* Margem para separar do conteúdo  */
+  }
+  
+  /* Estilos adicionais para manter consistência e alinhamento */
+  .center-content {
+    text-align: center; /* Ajuste para centralizar conteúdo*/
+    margin: 0 auto; /* Margem automática para centralizar o bloco */
+  }
+  
+  figure {
+    margin: 1em 0;
+  }
+  
+  figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Estilo para citações */
+  blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 16px;
+    margin: 1em 0;
+    font-style: italic;
+    color: #666;
+  }
+  
+  blockquote cite {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  /* Estilo para definições */
+  dl {
+    margin: 1em 0;
+  }
+  
+  dt {
+    font-weight: bold;
+    margin-top: 0.5em;
+  }
+  
+  dd {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Estilo para blocos de código */
+  code {
+    font-family: monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-family: monospace;
+  }
+  

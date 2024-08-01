@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Blog - myFOLIO - Web Design &amp; Development</title>
-<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-    <div id="main-header">
+    <header id="main-header">
         <div class="center-content">
             <h1 id="logo"><a href="index.html"><img src="img/logo-myfolio.png" alt="myFolio"></a></h1>
         </div>
         
-        <div class="center-content">    
+        <nav class="center-content">    
             <ul class="inline-list">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -19,7 +19,7 @@
                 <li><a href="portfolio.html">Portfólio</a></li>
                 <li><a href="contactos.html">Contactos</a></li>
             </ul>
-        </div>
+        </nav>
         
         <div class="center-content">
             <div id="main-title">
@@ -27,17 +27,17 @@
                 <h3>Notícias, tecnologia, reviews e muito mais!</h3>
             </div>
         </div>
-    </div>
+    </header>
     
-    <div id="content">
+    <main id="content">
         <div class="center-content">
-            <div class="article">
-                <div class="header">
+            <article>
+                <header>
                     <h4>Nova versão do Android a caminho</h4>
                     <p>
                         Publicado a <time datetime="2020-08-20T15:21">20 de Agosto de 2020, às 15:21</time> por <a href="#">mim</a>
                     </p>
-                </div>
+                </header>
                 <p>
                     O Google não mostra sinais de desaceleração no ritmo de desenvolvimento do Android, 
                     com Android 4.0 aparece no Nexus Galaxy no final de 2011 e, em Julho de 2012 pela saída do Android
@@ -74,7 +74,7 @@
                     no evento deste ano.
                 </p>
                 
-                <div class="footer">
+                <footer>
                     Etiquetas: 
                     <ul class="tag-cloud">
                         <li><a href="">Tecnologia</a></li>
@@ -82,16 +82,16 @@
                         <li><a href="">Android</a></li>
                         <li><a href="">Mobile</a></li>
                     </ul>
-                </div>
-            </div>
+                </footer>
+            </article>
         
-            <div class="article">
-                <div class="header">
+            <article>
+                <header>
                     <h4>Amazon compra Goodreads</h4>
                     <p>
                         Publicado a <time datetime="2020-08-20T15:21">20 de Agosto de 2020, às 15:21</time> por <a href="#">mim</a>
                     </p>
-                </div>
+                </header>
                 <figure>
                     <img src="img/goodreads-amazon.jpg" alt="Goodreads e Amazon">
                 </figure>
@@ -126,22 +126,22 @@
                     e que agora, as duas empresas têm a "intenção de conceber novas maneiras de encantar os 
                     leitores e os autores".
                 </p>
-                <div class="footer">
+                <footer>
                     Etiquetas: 
                     <ul class="tag-cloud">
                         <li><a href="">Tecnologia</a></li>
                         <li><a href="">Amazon</a></li>
                         <li><a href="">Goodreads</a></li>
                     </ul>
-                </div>
-            </div>
-            <div class="article">
-                <div class="header">
+                </footer>
+            </article>
+            <article>
+                <header>
                     <h4>Voltei do Dubai!</h4>
                     <p>
                         Publicado a <time datetime="2020-05-12T09:54">12 de Maio de 2020, às 9:54</time> por <a href="#">mim</a>
                     </p>
-                </div>
+                </header>
                 <p>
                     Depois de um descanso merecido estou de volta ao trabalho com baterias recarregadas e novos projetos.
                     Aqui fica uma pequena descrição deste país fantástico.
@@ -182,17 +182,17 @@
                     Esta maior atenção, coincidindo com o seu aparecimento como um concentrador de negócios mundial, 
                     pôs em destaque questões dos direitos humanos relativas à sua mão-de-obra em grande parte externa.
                 </p>
-                <div class="footer">
+                <footer>
                     Etiquetas: 
                     <ul class="tag-cloud">
                         <li><a href="">Dubai</a></li>
                         <li><a href="">Férias</a></li>
                         <li><a href="">Turismo</a></li>
                     </ul>
-                </div>
-            </div>
+                </footer>
+            </article>
         </div>
-        <div class="center-content">
+        <aside class="center-content">
             <div class="container">
                 <h5>Artigos recentes</h5>
                 <ul>
@@ -229,24 +229,28 @@
                     <li><a href="#">Google</a></li>
                 </ul>
             </div>
-        </div>
-    </div>
-    <div id="main-footer">
+        </aside>
+    </main>
+    <footer id="main-footer">
         <div class="center-content">
-            <ul class="inline-list">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="contactos.html">Contactos</a></li>
-            </ul>
-            <ul class="inline-list">
-                <li><a href="#"><img src="img/social-facebook.png"></a></li>
-                <li><a href="#"><img src="img/social-twitter.png"></a></li>
-                <li><a href="#"><img src="img/social-linkedin.png"></a></li>
-                <li><a href="#"><img src="img/social-gplus.png"></a></li>
-            </ul>
+            <nav>
+                <ul class="inline-list">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="inline-list">
+                    <li><a href="#"><img src="img/social-facebook.png"></a></li>
+                    <li><a href="#"><img src="img/social-twitter.png"></a></li>
+                    <li><a href="#"><img src="img/social-linkedin.png"></a></li>
+                    <li><a href="#"><img src="img/social-gplus.png"></a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </footer>
 </body>
 </html>

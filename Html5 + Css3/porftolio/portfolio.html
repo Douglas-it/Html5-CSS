@@ -1,104 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
-<meta charset="UTF-8">
-<title>Portfólio - myFOLIO - Web Design &amp; Development</title>
-<link rel="stylesheet" href="css/style2.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - myFOLIO - Web Design & Development</title>
+  <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-	<div id="main-header">
-		<div class="center-content">
-			<h1 id="logo"><a href="index.html"><img src="img/logo-myfolio.png" alt="myFolio"></a></h1>
-		</div>
-		
-		<div class="center-content">	
-			<ul class="inline-list">
-				<li><a href="index.html">Início</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li id="servicos"><a href="servicos.html">Serviços</a></li>
-				<li id="portfolio"><a href="portfolio.html">Portfólio</a></li>
-				<li><a href="contactos.html">Contactos</a></li>
-			</ul>
-		</div>
-		
-		<div class="center-content">
-			<div id="main-title">
-				<h1>Portfólio</h1>
-				<h3>Os meus projectos e clientes falam por mim!</h3>
-			</div>
-		</div>
-	</div>
-	
-	<div id="content">
-		<div class="center-content">
-			<h2>Trabalhos</h2>
-			<code>Imagem "portfolio01.jpg"</code>
-			<code>Imagem "portfolio02.jpg"</code>
-			<code>Imagem "portfolio03.jpg"</code>
-			<code>Imagem "portfolio04.jpg"</code>
-		</div>
-		
-		<div class="center-content">
-			<h2>Clientes</h2>
-			<p><code>Imagem "logos.jpg"</code></p>
-		</div>
-		
-		<div class="center-content">
-			<h2>Testemunhos</h2>
-			<div class="article">
-				<blockquote>
-					<p>
-						Serviço impecável! Ficámos impressionados com a rapidez de execução, acompanhamento e preço. 
-						Continuaremos a trabalhar em conjunto. Parabéns!
-					</p>
-					<cite>CEO Orbix, Lda</cite>
-				</blockquote>
-			</div>
-			<div class="article">
-				<blockquote>
-					<p>
-						Muito obrigado pela disponibilidade e flexibilidade ao longo de todo o projeto.
-					</p>
-					<cite>Dep. Informático Naqtel</cite>
-				</blockquote>
-			</div>
-			<div class="article">
-				<blockquote>
-					<p>
-						Dos melhores serviços que contratámos! Desde a simpatia no atendimento até ao fantástico serviço
-						prestado. 
-					</p>
-					<cite>Dep. Qualidade Miziul</cite>
-				</blockquote>
-			</div>
-			<div class="article">
-				<blockquote>
-					<p>
-						Qualidade a um preço competitivo. Os objetivos não só foram atingidos como ultrapassados.
-					</p>
-					<cite>Dir. Kopani</cite>
-				</blockquote>
-			</div>
-		</div>
-	</div>
-	
-	<div id="main-footer">
-		<div class="center-content">
-			<ul class="inline-list">
-				<li><a href="index.html">Início</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="servicos.html">Serviços</a></li>
-				<li><a href="portfolio.html">Portfólio</a></li>
-				<li><a href="contactos.html">Contactos</a></li>
-			</ul>
-			<ul class="inline-list">
-				<li><a href="#"><img src="img/social-facebook.png"></a></li>
-				<li><a href="#"><img src="img/social-twitter.png"></a></li>
-				<li><a href="#"><img src="img/social-linkedin.png"></a></li>
-				<li><a href="#"><img src="img/social-gplus.png"></a></li>
-			</ul>
-		</div>
-	</div>
+  <header id="main-header">
+    <div class="center-content">
+      <h1 id="logo">
+        <a href="index.html">
+          <img src="img/logo-myfolio.png" alt="myFolio">
+        </a>
+      </h1>
+    </div>
+    
+    <nav class="center-content">
+      <ul class="inline-list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li id="servicos"><a href="servicos.html">Serviços</a></li>
+        <li id="portfolio"><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
+    </nav>
+    
+    <div class="center-content">
+      <div id="main-title">
+        <h1>Portfólio</h1>
+        <h3>Os meus projetos e clientes falam por mim!</h3>
+      </div>
+    </div>
+  </header>
+  
+  <main id="content">
+    <section>
+      <div class="center-content">
+        <h2>Trabalhos</h2>
+        <figure>
+          <img src="img/portfolio01.jpg" alt="Descrição da Imagem 01">
+          <figcaption>Imagem "portfolio01.jpg"</figcaption>
+        </figure>
+        <figure>
+          <img src="img/portfolio02.jpg" alt="Descrição da Imagem 02">
+          <figcaption>Imagem "portfolio02.jpg"</figcaption>
+        </figure>
+        <figure>
+          <img src="img/portfolio03.jpg" alt="Descrição da Imagem 03">
+          <figcaption>Imagem "portfolio03.jpg"</figcaption>
+        </figure>
+        <figure>
+          <img src="img/portfolio04.jpg" alt="Descrição da Imagem 04">
+          <figcaption>Imagem "portfolio04.jpg"</figcaption>
+        </figure>
+      </div>
+    </section>
+    
+    <section>
+      <div class="center-content">
+        <h2>Clientes</h2>
+        <figure>
+          <img src="img/logos.jpg" alt="Logos dos clientes">
+          <figcaption>Imagem "logos.jpg"</figcaption>
+        </figure>
+      </div>
+    </section>
+    
+    <section>
+      <div class="center-content">
+        <h2>Testemunhos</h2>
+        
+        <article>
+          <blockquote>
+            <p>
+              Serviço impecável! Ficámos impressionados com a rapidez de execução, acompanhamento e preço. 
+              Continuaremos a trabalhar em conjunto. Parabéns!
+            </p>
+            <footer>
+              <cite>CEO Orbix, Lda</cite>
+            </footer>
+          </blockquote>
+        </article>
+        
+        <article>
+          <blockquote>
+            <p>
+              Muito obrigado pela disponibilidade e flexibilidade ao longo de todo o projeto.
+            </p>
+            <footer>
+              <cite>Dep. Informático Naqtel</cite>
+            </footer>
+          </blockquote>
+        </article>
+        
+        <article>
+          <blockquote>
+            <p>
+              Dos melhores serviços que contratámos! Desde a simpatia no atendimento até ao fantástico serviço
+              prestado. 
+            </p>
+            <footer>
+              <cite>Dep. Qualidade Miziul</cite>
+            </footer>
+          </blockquote>
+        </article>
+        
+        <article>
+          <blockquote>
+            <p>
+              Qualidade a um preço competitivo. Os objetivos não só foram atingidos como ultrapassados.
+            </p>
+            <footer>
+              <cite>Dir. Kopani</cite>
+            </footer>
+          </blockquote>
+        </article>
+      </div>
+    </section>
+  </main>
+  
+  <footer id="main-footer">
+    <div class="center-content">
+      <nav>
+        <ul class="inline-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
+      <ul class="inline-list">
+        <li><a href="#"><img src="img/social-facebook.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="img/social-twitter.png" alt="Twitter"></a></li>
+        <li><a href="#"><img src="img/social-linkedin.png" alt="LinkedIn"></a></li>
+        <li><a href="#"><img src="img/social-gplus.png" alt="Google+"></a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
