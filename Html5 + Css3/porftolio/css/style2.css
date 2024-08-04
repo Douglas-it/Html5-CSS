@@ -291,7 +291,7 @@ article aside {
   
   /* Estilos adicionais para manter consistência e alinhamento */
   .center-content {
-    text-align: center; /* Ajuste para centralizar conteúdo*/
+    text-align: left; /* Alinhamento do texto */
     margin: 0 auto; /* Margem automática para centralizar o bloco */
   }
   
